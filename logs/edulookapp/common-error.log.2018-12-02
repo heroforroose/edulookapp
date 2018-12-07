@@ -1,0 +1,39 @@
+2018-12-02 20:16:12,222 ERROR 3908 nodejs.EPERMError: Error watching file for changes: EPERM
+    at _errnoException (util.js:1024:11)
+    at FSEvent.FSWatcher._handle.onchange (fs.js:1351:9)
+code: "EPERM"
+errno: "EPERM"
+syscall: "Error watching file for changes:"
+filename: null
+dir: "G:\\xampp\\htdocs\\egg\\edulookapp\\app\\public\\js\\public\\css"
+name: "EPERMError"
+pid: 3908
+hostname: DESKTOP-00K0V8A
+
+2018-12-02 20:22:45,499 ERROR 3908 nodejs.EPERMError: Error watching file for changes: EPERM
+    at _errnoException (util.js:1024:11)
+    at FSEvent.FSWatcher._handle.onchange (fs.js:1351:9)
+code: "EPERM"
+errno: "EPERM"
+syscall: "Error watching file for changes:"
+filename: null
+dir: "G:\\xampp\\htdocs\\egg\\edulookapp\\app\\view\\news\\List.tpl"
+name: "EPERMError"
+pid: 3908
+hostname: DESKTOP-00K0V8A
+
+2018-12-02 20:35:47,030 ERROR 14148 [-/127.0.0.1/-/15ms GET /news] nodejs.ReferenceError: dataList is not defined
+    at NewsController.list (G:\xampp\htdocs\egg\edulookapp\app\controller\news.js:10:47)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 14148
+hostname: DESKTOP-00K0V8A
+

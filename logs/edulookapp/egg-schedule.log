@@ -1,0 +1,8 @@
+2018-12-06 00:19:07,089 INFO 15020 [Timer] G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-12-07 00:00:00.000
+2018-12-06 00:19:07,092 INFO 15020 [Timer] G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-12-07 00:00:01.000
+2018-12-08 01:40:47,788 INFO 1276 [Timer] G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-12-09 00:00:00.000
+2018-12-08 01:40:47,790 INFO 1276 [Timer] G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-12-09 00:00:01.000
+2018-12-08 02:03:15,617 INFO 15100 [Timer] G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-12-09 00:00:00.000
+2018-12-08 02:03:15,618 INFO 15100 [Timer] G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-12-09 00:00:01.000
+2018-12-08 02:42:33,447 INFO 16548 [Timer] G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-12-09 00:00:00.000
+2018-12-08 02:42:33,447 INFO 16548 [Timer] G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-12-09 00:00:01.000

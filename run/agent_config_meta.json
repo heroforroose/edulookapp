@@ -1,0 +1,293 @@
+{
+  "keys": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.default.js",
+    "mapping": {
+      ".html": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.default.js"
+    },
+    "root": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "news": {
+    "pageSize": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.default.js",
+    "serverUrl": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.local.js",
+      "port": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.local.js",
+      "user": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.local.js",
+      "password": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.local.js",
+      "database": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.local.js"
+    },
+    "app": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.local.js",
+    "agent": "G:\\xampp\\htdocs\\egg\\edulookapp\\config\\config.local.js",
+    "default": {
+      "database": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "name": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "version": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "description": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "main": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "test": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "dev": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "url": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "author": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "license": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "bugs": {
+      "url": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "homepage": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "moment": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "strict": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "depth": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "env": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "level": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "logging": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "port": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "G:\\xampp\\htdocs\\egg\\edulookapp\\node_modules\\egg\\config\\config.default.js"
+}

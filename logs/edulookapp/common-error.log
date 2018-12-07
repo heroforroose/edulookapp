@@ -1,0 +1,485 @@
+2018-12-06 00:20:25,882 ERROR 16668 [-/127.0.0.1/-/4ms GET /news] nodejs.TypeError: Cannot read property 'list' of undefined
+    at NewsController.list (G:\xampp\htdocs\egg\edulookapp\app\controller\news.js:6:49)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 16668
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 02:05:26,151 ERROR 9948 [-/127.0.0.1/-/5ms GET /news] nodejs.ReferenceError: serverUrl is not defined
+    at NewsService.list (G:\xampp\htdocs\egg\edulookapp\app\service\news.js:6:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9948
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 02:10:01,515 ERROR 3172 [-/127.0.0.1/-/11ms GET /news] nodejs.ReferenceError: serverUrl is not defined
+    at NewsService.list (G:\xampp\htdocs\egg\edulookapp\app\service\news.js:6:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3172
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 02:10:02,415 ERROR 3172 [-/127.0.0.1/-/3ms GET /news] nodejs.ReferenceError: serverUrl is not defined
+    at NewsService.list (G:\xampp\htdocs\egg\edulookapp\app\service\news.js:6:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3172
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 02:12:07,670 ERROR 3172 [-/127.0.0.1/-/0ms GET /news] nodejs.ReferenceError: serverUrl is not defined
+    at NewsService.list (G:\xampp\htdocs\egg\edulookapp\app\service\news.js:6:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3172
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 02:31:53,217 ERROR 13384 [-/127.0.0.1/-/10ms GET /] nodejs.TypeError: this.app.mysql.query is not a function
+    at HomeController.index (G:\xampp\htdocs\egg\edulookapp\app\controller\home.js:5:46)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 13384
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 02:33:12,114 ERROR 6504 [-/127.0.0.1/-/8ms GET /] nodejs.ReferenceError: app is not defined
+    at HomeController.index (G:\xampp\htdocs\egg\edulookapp\app\controller\home.js:5:25)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 6504
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 02:35:52,408 ERROR 2400 [-/127.0.0.1/-/21ms GET /] nodejs.TypeError: this.app.mysql.query is not a function
+    at HomeController.index (G:\xampp\htdocs\egg\edulookapp\app\controller\home.js:5:46)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2400
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 02:43:18,533 ERROR 5952 [-/127.0.0.1/-/9ms GET /] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (G:\xampp\htdocs\egg\edulookapp\app\controller\home.js:5:25)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 5952
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 02:43:43,406 ERROR 9180 [-/127.0.0.1/-/7ms GET /] nodejs.TypeError: this.ctx.service.home.find is not a function
+    at HomeController.index (G:\xampp\htdocs\egg\edulookapp\app\controller\home.js:5:53)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9180
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 02:46:24,361 ERROR 12628 [-/127.0.0.1/-/6ms GET /] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (G:\xampp\htdocs\egg\edulookapp\app\controller\home.js:5:25)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 12628
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 02:56:02,022 ERROR 12568 [-/127.0.0.1/-/8ms GET /] nodejs.TypeError: this.app.mysql.query is not a function
+    at HomeService.find (G:\xampp\htdocs\egg\edulookapp\app\service\home.js:7:44)
+    at HomeController.index (G:\xampp\htdocs\egg\edulookapp\app\controller\home.js:5:53)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 12568
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:02:38,909 ERROR 11240 [-/127.0.0.1/-/13ms GET /] nodejs.TypeError: this.app.mysql.query is not a function
+    at HomeService.find (G:\xampp\htdocs\egg\edulookapp\app\service\home.js:7:44)
+    at HomeController.index (G:\xampp\htdocs\egg\edulookapp\app\controller\home.js:5:53)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 11240
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:02:40,245 ERROR 11240 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.app.mysql.query is not a function
+    at HomeService.find (G:\xampp\htdocs\egg\edulookapp\app\service\home.js:7:44)
+    at HomeController.index (G:\xampp\htdocs\egg\edulookapp\app\controller\home.js:5:53)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 11240
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:02:41,389 ERROR 11240 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.app.mysql.query is not a function
+    at HomeService.find (G:\xampp\htdocs\egg\edulookapp\app\service\home.js:7:44)
+    at HomeController.index (G:\xampp\htdocs\egg\edulookapp\app\controller\home.js:5:53)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 11240
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:14:56,155 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:14:56,155 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:14:56,155 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:14:56,155 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:15:25,340 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:15:25,340 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:15:25,351 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:15:25,352 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:16:07,408 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:16:07,409 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:16:07,394 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:16:07,394 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:16:17,382 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:16:17,383 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:16:17,407 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:16:17,408 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:18:43,674 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:18:43,674 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:18:43,663 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:18:43,664 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:18:45,440 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:18:45,440 ERROR 15100 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15100
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:18:45,407 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:18:45,408 ERROR 16548 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16548
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:22:53,131 ERROR 6816 [-/127.0.0.1/-/20ms GET /] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'edulook.users' doesn't exist
+    at Query.Sequence._packetToError (G:\xampp\htdocs\egg\edulookapp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (G:\xampp\htdocs\egg\edulookapp\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (G:\xampp\htdocs\egg\edulookapp\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (G:\xampp\htdocs\egg\edulookapp\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (G:\xampp\htdocs\egg\edulookapp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (G:\xampp\htdocs\egg\edulookapp\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (G:\xampp\htdocs\egg\edulookapp\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    --------------------
+    at Pool.query (G:\xampp\htdocs\egg\edulookapp\node_modules\mysql\lib\Pool.js:199:23)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\xampp\htdocs\egg\edulookapp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\xampp\htdocs\egg\edulookapp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\xampp\htdocs\egg\edulookapp\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (G:\xampp\htdocs\egg\edulookapp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (G:\xampp\htdocs\egg\edulookapp\node_modules\co\index.js:65:19)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `user_id` = 1 LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'edulook.users' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `users` WHERE `user_id` = 1 LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 6816
+hostname: DESKTOP-00K0V8A
+
+2018-12-08 03:23:56,656 ERROR 4488 [-/127.0.0.1/-/5ms GET /] nodejs.SyntaxError: Identifier 'user_id' has already been declared
+    at HomeController.index (G:\xampp\htdocs\egg\edulookapp\app\controller\home.js:5:53)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (G:\xampp\htdocs\egg\edulookapp\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\xampp\htdocs\egg\edulookapp\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 4488
+hostname: DESKTOP-00K0V8A
+

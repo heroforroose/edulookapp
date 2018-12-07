@@ -1,0 +1,166 @@
+2018-12-02 20:09:55,642 INFO 1484 [egg:logger] init all loggers with options: {"dir":"G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"edulookapp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-02 20:09:55,682 INFO 1484 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-12-02 20:09:55,682 INFO 1484 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-12-02 20:09:55,683 INFO 1484 [egg-multipart] stream mode enable
+2018-12-02 20:09:55,767 INFO 1484 [egg-static] starting static serve /public/ -> G:\xampp\htdocs\egg\edulookapp\app\public
+2018-12-02 20:09:55,771 INFO 1484 [egg-security] use csrf middleware
+2018-12-02 20:09:55,773 INFO 1484 [egg-security] use methodnoallow middleware
+2018-12-02 20:09:55,773 INFO 1484 [egg-security] use noopen middleware
+2018-12-02 20:09:55,775 INFO 1484 [egg-security] use nosniff middleware
+2018-12-02 20:09:55,775 INFO 1484 [egg-security] use xssProtection middleware
+2018-12-02 20:09:55,776 INFO 1484 [egg-security] use xframe middleware
+2018-12-02 20:09:55,776 INFO 1484 [egg-security] use dta middleware
+2018-12-02 20:09:55,776 INFO 1484 [egg-security] compose 7 middlewares into one security middleware
+2018-12-02 20:09:55,810 INFO 1484 [egg:core] dump config after load, 30ms
+2018-12-02 20:09:55,823 INFO 1484 [egg-watcher:application] watcher start success
+2018-12-02 20:09:55,848 INFO 1484 [egg:core] dump config after ready, 23ms
+2018-12-02 20:13:22,345 INFO 7640 [egg:logger] init all loggers with options: {"dir":"G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"edulookapp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-02 20:13:22,379 INFO 7640 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-12-02 20:13:22,379 INFO 7640 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-12-02 20:13:22,380 INFO 7640 [egg-multipart] stream mode enable
+2018-12-02 20:13:22,456 INFO 7640 [egg-static] starting static serve /public/ -> G:\xampp\htdocs\egg\edulookapp\app\public
+2018-12-02 20:13:22,461 INFO 7640 [egg-security] use csrf middleware
+2018-12-02 20:13:22,462 INFO 7640 [egg-security] use methodnoallow middleware
+2018-12-02 20:13:22,463 INFO 7640 [egg-security] use noopen middleware
+2018-12-02 20:13:22,465 INFO 7640 [egg-security] use nosniff middleware
+2018-12-02 20:13:22,465 INFO 7640 [egg-security] use xssProtection middleware
+2018-12-02 20:13:22,466 INFO 7640 [egg-security] use xframe middleware
+2018-12-02 20:13:22,467 INFO 7640 [egg-security] use dta middleware
+2018-12-02 20:13:22,467 INFO 7640 [egg-security] compose 7 middlewares into one security middleware
+2018-12-02 20:13:22,494 INFO 7640 [egg:core] dump config after load, 23ms
+2018-12-02 20:13:22,504 INFO 7640 [egg-watcher:application] watcher start success
+2018-12-02 20:13:22,532 INFO 7640 [egg:core] dump config after ready, 26ms
+2018-12-02 20:19:08,674 INFO 15904 [egg:logger] init all loggers with options: {"dir":"G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"edulookapp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-02 20:19:08,710 INFO 15904 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-12-02 20:19:08,710 INFO 15904 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-12-02 20:19:08,711 INFO 15904 [egg-multipart] stream mode enable
+2018-12-02 20:19:08,777 INFO 15904 [egg-static] starting static serve /public/ -> G:\xampp\htdocs\egg\edulookapp\app\public
+2018-12-02 20:19:08,779 INFO 15904 [egg-security] use csrf middleware
+2018-12-02 20:19:08,782 INFO 15904 [egg-security] use methodnoallow middleware
+2018-12-02 20:19:08,783 INFO 15904 [egg-security] use noopen middleware
+2018-12-02 20:19:08,784 INFO 15904 [egg-security] use nosniff middleware
+2018-12-02 20:19:08,784 INFO 15904 [egg-security] use xssProtection middleware
+2018-12-02 20:19:08,785 INFO 15904 [egg-security] use xframe middleware
+2018-12-02 20:19:08,785 INFO 15904 [egg-security] use dta middleware
+2018-12-02 20:19:08,785 INFO 15904 [egg-security] compose 7 middlewares into one security middleware
+2018-12-02 20:19:08,811 INFO 15904 [egg:core] dump config after load, 22ms
+2018-12-02 20:19:08,821 INFO 15904 [egg-watcher:application] watcher start success
+2018-12-02 20:19:08,852 INFO 15904 [egg:core] dump config after ready, 29ms
+2018-12-02 20:19:56,147 INFO 2236 [egg:logger] init all loggers with options: {"dir":"G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"edulookapp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-02 20:19:56,181 INFO 2236 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-12-02 20:19:56,181 INFO 2236 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-12-02 20:19:56,182 INFO 2236 [egg-multipart] stream mode enable
+2018-12-02 20:19:56,250 INFO 2236 [egg-static] starting static serve /public/ -> G:\xampp\htdocs\egg\edulookapp\app\public
+2018-12-02 20:19:56,258 INFO 2236 [egg-security] use csrf middleware
+2018-12-02 20:19:56,261 INFO 2236 [egg-security] use methodnoallow middleware
+2018-12-02 20:19:56,261 INFO 2236 [egg-security] use noopen middleware
+2018-12-02 20:19:56,262 INFO 2236 [egg-security] use nosniff middleware
+2018-12-02 20:19:56,263 INFO 2236 [egg-security] use xssProtection middleware
+2018-12-02 20:19:56,264 INFO 2236 [egg-security] use xframe middleware
+2018-12-02 20:19:56,264 INFO 2236 [egg-security] use dta middleware
+2018-12-02 20:19:56,264 INFO 2236 [egg-security] compose 7 middlewares into one security middleware
+2018-12-02 20:19:56,298 INFO 2236 [egg:core] dump config after load, 30ms
+2018-12-02 20:19:56,343 INFO 2236 [egg-watcher:application] watcher start success
+2018-12-02 20:19:56,380 INFO 2236 [egg:core] dump config after ready, 35ms
+2018-12-02 20:21:29,602 INFO 15200 [egg:logger] init all loggers with options: {"dir":"G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"edulookapp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-02 20:21:29,636 INFO 15200 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-12-02 20:21:29,636 INFO 15200 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-12-02 20:21:29,637 INFO 15200 [egg-multipart] stream mode enable
+2018-12-02 20:21:29,708 INFO 15200 [egg-static] starting static serve /public/ -> G:\xampp\htdocs\egg\edulookapp\app\public
+2018-12-02 20:21:29,711 INFO 15200 [egg-security] use csrf middleware
+2018-12-02 20:21:29,712 INFO 15200 [egg-security] use methodnoallow middleware
+2018-12-02 20:21:29,713 INFO 15200 [egg-security] use noopen middleware
+2018-12-02 20:21:29,713 INFO 15200 [egg-security] use nosniff middleware
+2018-12-02 20:21:29,714 INFO 15200 [egg-security] use xssProtection middleware
+2018-12-02 20:21:29,714 INFO 15200 [egg-security] use xframe middleware
+2018-12-02 20:21:29,715 INFO 15200 [egg-security] use dta middleware
+2018-12-02 20:21:29,715 INFO 15200 [egg-security] compose 7 middlewares into one security middleware
+2018-12-02 20:21:29,742 INFO 15200 [egg:core] dump config after load, 23ms
+2018-12-02 20:21:29,776 INFO 15200 [egg-watcher:application] watcher start success
+2018-12-02 20:21:29,819 INFO 15200 [egg:core] dump config after ready, 41ms
+2018-12-02 20:34:32,984 INFO 14148 [egg:logger] init all loggers with options: {"dir":"G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"edulookapp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-02 20:34:33,021 INFO 14148 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-12-02 20:34:33,021 INFO 14148 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-12-02 20:34:33,022 INFO 14148 [egg-multipart] stream mode enable
+2018-12-02 20:34:33,087 INFO 14148 [egg-static] starting static serve /public/ -> G:\xampp\htdocs\egg\edulookapp\app\public
+2018-12-02 20:34:33,090 INFO 14148 [egg-security] use csrf middleware
+2018-12-02 20:34:33,091 INFO 14148 [egg-security] use methodnoallow middleware
+2018-12-02 20:34:33,092 INFO 14148 [egg-security] use noopen middleware
+2018-12-02 20:34:33,093 INFO 14148 [egg-security] use nosniff middleware
+2018-12-02 20:34:33,093 INFO 14148 [egg-security] use xssProtection middleware
+2018-12-02 20:34:33,093 INFO 14148 [egg-security] use xframe middleware
+2018-12-02 20:34:33,094 INFO 14148 [egg-security] use dta middleware
+2018-12-02 20:34:33,094 INFO 14148 [egg-security] compose 7 middlewares into one security middleware
+2018-12-02 20:34:33,122 INFO 14148 [egg:core] dump config after load, 24ms
+2018-12-02 20:34:33,167 INFO 14148 [egg-watcher:application] watcher start success
+2018-12-02 20:34:33,229 INFO 14148 [egg:core] dump config after ready, 59ms
+2018-12-02 20:36:17,447 INFO 9312 [egg:logger] init all loggers with options: {"dir":"G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"edulookapp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-02 20:36:17,482 INFO 9312 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-12-02 20:36:17,482 INFO 9312 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-12-02 20:36:17,482 INFO 9312 [egg-multipart] stream mode enable
+2018-12-02 20:36:17,580 INFO 9312 [egg-static] starting static serve /public/ -> G:\xampp\htdocs\egg\edulookapp\app\public
+2018-12-02 20:36:17,582 INFO 9312 [egg-security] use csrf middleware
+2018-12-02 20:36:17,583 INFO 9312 [egg-security] use methodnoallow middleware
+2018-12-02 20:36:17,584 INFO 9312 [egg-security] use noopen middleware
+2018-12-02 20:36:17,585 INFO 9312 [egg-security] use nosniff middleware
+2018-12-02 20:36:17,585 INFO 9312 [egg-security] use xssProtection middleware
+2018-12-02 20:36:17,585 INFO 9312 [egg-security] use xframe middleware
+2018-12-02 20:36:17,586 INFO 9312 [egg-security] use dta middleware
+2018-12-02 20:36:17,586 INFO 9312 [egg-security] compose 7 middlewares into one security middleware
+2018-12-02 20:36:17,619 INFO 9312 [egg:core] dump config after load, 26ms
+2018-12-02 20:36:17,670 INFO 9312 [egg-watcher:application] watcher start success
+2018-12-02 20:36:17,689 INFO 9312 [egg:core] dump config after ready, 15ms
+2018-12-02 20:36:19,275 INFO 9312 [egg-view-nunjucks] loading templates from ["G:\\xampp\\htdocs\\egg\\edulookapp\\app\\view"]
+2018-12-02 21:13:30,260 INFO 12752 [egg:logger] init all loggers with options: {"dir":"G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"edulookapp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-02 21:13:30,298 INFO 12752 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-12-02 21:13:30,298 INFO 12752 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-12-02 21:13:30,299 INFO 12752 [egg-multipart] stream mode enable
+2018-12-02 21:13:30,390 INFO 12752 [egg-static] starting static serve /public/ -> G:\xampp\htdocs\egg\edulookapp\app\public
+2018-12-02 21:13:30,393 INFO 12752 [egg-security] use csrf middleware
+2018-12-02 21:13:30,394 INFO 12752 [egg-security] use methodnoallow middleware
+2018-12-02 21:13:30,394 INFO 12752 [egg-security] use noopen middleware
+2018-12-02 21:13:30,395 INFO 12752 [egg-security] use nosniff middleware
+2018-12-02 21:13:30,396 INFO 12752 [egg-security] use xssProtection middleware
+2018-12-02 21:13:30,397 INFO 12752 [egg-security] use xframe middleware
+2018-12-02 21:13:30,397 INFO 12752 [egg-security] use dta middleware
+2018-12-02 21:13:30,397 INFO 12752 [egg-security] compose 7 middlewares into one security middleware
+2018-12-02 21:13:30,421 INFO 12752 [egg:core] dump config after load, 18ms
+2018-12-02 21:13:30,431 INFO 12752 [egg-watcher:application] watcher start success
+2018-12-02 21:13:30,455 INFO 12752 [egg:core] dump config after ready, 22ms
+2018-12-02 21:13:31,546 INFO 17272 [egg:logger] init all loggers with options: {"dir":"G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"edulookapp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-02 21:13:31,579 INFO 17272 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-12-02 21:13:31,579 INFO 17272 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-12-02 21:13:31,580 INFO 17272 [egg-multipart] stream mode enable
+2018-12-02 21:13:31,650 INFO 17272 [egg-static] starting static serve /public/ -> G:\xampp\htdocs\egg\edulookapp\app\public
+2018-12-02 21:13:31,653 INFO 17272 [egg-security] use csrf middleware
+2018-12-02 21:13:31,654 INFO 17272 [egg-security] use methodnoallow middleware
+2018-12-02 21:13:31,654 INFO 17272 [egg-security] use noopen middleware
+2018-12-02 21:13:31,655 INFO 17272 [egg-security] use nosniff middleware
+2018-12-02 21:13:31,655 INFO 17272 [egg-security] use xssProtection middleware
+2018-12-02 21:13:31,656 INFO 17272 [egg-security] use xframe middleware
+2018-12-02 21:13:31,657 INFO 17272 [egg-security] use dta middleware
+2018-12-02 21:13:31,657 INFO 17272 [egg-security] compose 7 middlewares into one security middleware
+2018-12-02 21:13:31,681 INFO 17272 [egg:core] dump config after load, 20ms
+2018-12-02 21:13:31,708 INFO 17272 [egg-watcher:application] watcher start success
+2018-12-02 21:13:31,737 INFO 17272 [egg:core] dump config after ready, 27ms
+2018-12-02 21:14:45,202 INFO 12412 [egg:logger] init all loggers with options: {"dir":"G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"edulookapp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-02 21:14:45,236 INFO 12412 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-12-02 21:14:45,236 INFO 12412 [egg-schedule]: register schedule G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-12-02 21:14:45,236 INFO 12412 [egg-multipart] stream mode enable
+2018-12-02 21:14:45,306 INFO 12412 [egg-static] starting static serve /public/ -> G:\xampp\htdocs\egg\edulookapp\app\public
+2018-12-02 21:14:45,308 INFO 12412 [egg-security] use csrf middleware
+2018-12-02 21:14:45,309 INFO 12412 [egg-security] use methodnoallow middleware
+2018-12-02 21:14:45,310 INFO 12412 [egg-security] use noopen middleware
+2018-12-02 21:14:45,310 INFO 12412 [egg-security] use nosniff middleware
+2018-12-02 21:14:45,311 INFO 12412 [egg-security] use xssProtection middleware
+2018-12-02 21:14:45,311 INFO 12412 [egg-security] use xframe middleware
+2018-12-02 21:14:45,312 INFO 12412 [egg-security] use dta middleware
+2018-12-02 21:14:45,312 INFO 12412 [egg-security] compose 7 middlewares into one security middleware
+2018-12-02 21:14:45,331 INFO 12412 [egg:core] dump config after load, 15ms
+2018-12-02 21:14:45,347 INFO 12412 [egg-watcher:application] watcher start success
+2018-12-02 21:14:45,378 INFO 12412 [egg:core] dump config after ready, 31ms
+2018-12-03 00:00:00,084 INFO 12412 [egg-logrotator] clean all log before 31 days
+2018-12-03 00:00:00,086 INFO 12412 [-/127.0.0.1/-/20ms SCHEDULE /__schedule?path=G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js&type=worker&cron=0%200%20*%20*%20*] [egg-schedule] G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 19ms
+2018-12-03 00:00:01,047 INFO 12412 [egg-logrotator] broadcast log-reload
+2018-12-03 00:00:01,047 INFO 12412 [egg-logrotator] rotate files success by DayRotator, files ["G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp\\common-error.log -> G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp\\common-error.log.2018-12-02","G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp\\edulookapp-web.log -> G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp\\edulookapp-web.log.2018-12-02","G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp\\egg-web.log -> G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp\\egg-web.log.2018-12-02","G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp\\egg-schedule.log -> G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp\\egg-schedule.log.2018-12-02","G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp\\egg-agent.log -> G:\\xampp\\htdocs\\egg\\edulookapp\\logs\\edulookapp\\egg-agent.log.2018-12-02"]
+2018-12-03 00:00:01,047 INFO 12412 [-/127.0.0.1/-/31ms SCHEDULE /__schedule?path=G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-schedule] G:\xampp\htdocs\egg\edulookapp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 31ms
